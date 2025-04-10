@@ -59,26 +59,26 @@ The choice of model should balance accuracy, interpretability, and efficiency.
 Follow this exact structure for your submission:
 |__README.md
 |__requirements.txt  
-|
+|  
 |__data   
 |  |__train  
 |  |  |__train.csv  
-|  |
+|  |  
 |  |__test  
 |     |__test.csv  
-|
+|  
 |__notebooks  
 |  |__data_exploration.ipynb  
 |  |__planning.md  
-|
+|   
 |__src  
 |  |___init___.py  
 |  |__model_processing.py 
 |  |__model_training.py  
-|
+|  
 |__models  
 |  |__model.pkl  
-|
+|  
 |__predictions  
    |__predictions.json  
 
@@ -108,6 +108,8 @@ Submit your predictions as a `predictions.json` file with the following format:
         // ...
     }  
 }  
+```
+
 
 📊 Evaluation
 
