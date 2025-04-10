@@ -56,9 +56,10 @@ The choice of model should balance accuracy, interpretability, and efficiency.
 
 ## 📂 Repository Structure
 
-Follow this exact structure for your submission:
-|__README.md
-|__requirements.txt  
+Follow this exact structure for your submission:  
+```
+|__README.md  
+|__requirements.txt    
 |  
 |__data   
 |  |__train  
@@ -81,6 +82,7 @@ Follow this exact structure for your submission:
 |  
 |__predictions  
    |__predictions.json  
+```  
 
 > **Note**: The `predictions` folder must contain the `predictions.json` file with your model’s final output.
 
