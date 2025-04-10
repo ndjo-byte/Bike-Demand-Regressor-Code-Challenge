@@ -7,16 +7,16 @@ In the ever-evolving landscape of urban mobility, accurately forecasting the dem
 
 **BikeTech** introduces the **Bike Usage Prediction Challenge**, inviting AI researchers and data scientists to develop a predictive model capable of estimating bike-sharing demand based on historical and environmental data.
 
-This technology aims to:
-- Optimize bike allocation 🚲
-- Reduce operational costs 💸
-- Enhance the user experience in urban environments 🌆
+This technology aims to:  
+- Optimize bike allocation 🚲  
+- Reduce operational costs 💸  
+- Enhance the user experience in urban environments 🌆  
 
 ---
 
 ## 🗂️ Dataset
 
-Participants will work with the **Bike Sharing Dataset**, which includes temporal, environmental, and behavioral data.
+Participants will work with the **Bike Sharing Dataset**, which includes temporal, environmental, and behavioral data.  
 
 ### Dataset Features
 
@@ -58,29 +58,29 @@ The choice of model should balance accuracy, interpretability, and efficiency.
 
 Follow this exact structure for your submission:
 |__README.md
-|__requirements.txt
+|__requirements.txt  
 |
-|__data
-|  |__train
-|  |  |__train.csv
+|__data   
+|  |__train  
+|  |  |__train.csv  
 |  |
-|  |__test
-|     |__test.csv
+|  |__test  
+|     |__test.csv  
 |
-|__notebooks
-|  |__data_exploration.ipynb
-|  |__planning.md
+|__notebooks  
+|  |__data_exploration.ipynb  
+|  |__planning.md  
 |
-|__src
-|  |__init__.py
+|__src  
+|  |___init___.py  
 |  |__model_processing.py 
-|  |__model_training.py
+|  |__model_training.py  
 |
-|__models
-|  |__model.pkl
+|__models  
+|  |__model.pkl  
 |
-|__predictions
-   |__predictions.json
+|__predictions  
+   |__predictions.json  
 
 > **Note**: The `predictions` folder must contain the `predictions.json` file with your model’s final output.
 
@@ -99,20 +99,20 @@ This contributes directly to **BikeTech's mission** of improving sustainable urb
 
 Submit your predictions as a `predictions.json` file with the following format:
 
-```json
-{
-    "target": {
-        "2012-08-07 12:00": 23,
-        "2012-08-07 13:00": 52,
-        "2012-08-07 14:00": 312,
+```json  
+{   
+    "target": {  
+        "2012-08-07 12:00": 23,  
+        "2012-08-07 13:00": 52,  
+        "2012-08-07 14:00": 312,  
         // ...
-    }
-}
+    }  
+}  
 
 📊 Evaluation
 
 Model performance will be assessed using:
 
-📉 Mean Absolute Percentage Error (MAPE)  
+📉 Mean Absolute Percentage Error (MAPE)    
 The lower the error, the better your model’s predictions. Strive for both precision and consistency in your results.
 
